@@ -1,0 +1,14 @@
+{
+  "name": "forestApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "i": "^0.3.7"
+  }
+}
